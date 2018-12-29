@@ -151,13 +151,6 @@ Protest.describe 'Ector::Multi' do
     end
   end
 
-  context '#merge'
-
-    # test 'returns self' do
-      # assert_equal @multi, @multi.merge(:dummy, ???)
-    # end
-  # end
-
   context '#prepend' do
     setup do
       @left_multi = @multi.run(:left) { }

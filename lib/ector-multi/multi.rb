@@ -32,10 +32,6 @@ module Ector
       add_operation Operation::Error.new(name, operation_block(value, nil))
     end
 
-    def merge(multi)
-      raise NotImplemented
-    end
-
     def prepend(multi)
       check_operation_uniqueness!(multi.to_list)
 

@@ -78,10 +78,6 @@ Causes the multi to fail with the given value
 
 Adds a create operation to the multi
 
-`multi.merge(merge_function)`
-
-Merges a multi returned dynamically by an anonymous function
-
 `Ector::Multi.new`
 
 Returns an empty Ector::Multi object
