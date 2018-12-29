@@ -43,7 +43,7 @@ module PasswordManager
     Ector::Multi.new
     .update(:account, account, params)
     .create(:log, Log, account_id: account.id, changed_at: Time.now)
-    .delete_all(:clear_sessions, Session.where(account_id: account.id)
+    .destroy_all(:clear_sessions, Session.where(account_id: account.id))
   end
 end
 ```
