@@ -8,5 +8,5 @@ require_relative 'ector-multi/operations'
 require_relative 'ector-multi/multi'
 
 module Ector
-  VERSION = '0.0.1'
+  VERSION = '0.0.2'
 end
