@@ -66,7 +66,7 @@ Appends the second multi to the first one
 
 Adds a destroy operation to the multi
 
-`multi.delete_all(name, queryable)`
+`multi.destroy_all(name, queryable)`
 
 Adds a destroy_all operation to the multi
 
