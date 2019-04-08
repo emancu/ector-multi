@@ -8,6 +8,9 @@
 
 I literally copy the API and idea from [Ecto::Multi](https://hexdocs.pm/ecto/Ecto.Multi.html), so I'm gonna copy the documentation as well.
 
+<img src="https://user-images.githubusercontent.com/56375/55725543-3cf14e80-5a0e-11e9-9621-649395574ee8.png" width="150" align="middle" >
+
+
 ## Dependencies
 
 At this moment, `Ector::Multi` requires `ActiveRecord` as a dependency and relies on it for CRUD operations and transactions.
